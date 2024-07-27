@@ -2,16 +2,7 @@ import React from "react";
 
 function Address({ dark }: { dark: boolean }) {
   return (
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      width="1.5em" height="1.5em"
-      viewBox="0 0 24 24"
-    >
-      <path
-        fill={dark ? "white" : "black"}
-        d="M12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5M12 2a7 7 0 0 1 7 7c0 5.25-7 13-7 13S5 14.25 5 9a7 7 0 0 1 7-7m0 2a5 5 0 0 0-5 5c0 1 0 3 5 9.71C17 12 17 10 17 9a5 5 0 0 0-5-5"
-      />
-    </svg>
+    <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 512 512"><path fill={dark ? "white" : "black"} d="M444.52 3.52L28.74 195.42c-47.97 22.39-31.98 92.75 19.19 92.75h175.91v175.91c0 51.17 70.36 67.17 92.75 19.19l191.9-415.78c15.99-38.39-25.59-79.97-63.97-63.97"/></svg>
   );
 }
 
