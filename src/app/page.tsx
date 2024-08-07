@@ -7,6 +7,7 @@ import AnimatedDiv from "./_components/AnimateDiv";
 import Linkedin from "./_components/Linkden";
 import Github from "./_components/Github";
 import Link from "next/link";
+import Download from "./_components/Download";
 function H2({ title }: { title: string }) {
   return (
     <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold dark:text-white">
@@ -223,6 +224,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Download/>
     </main>
   );
 }
